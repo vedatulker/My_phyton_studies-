@@ -103,6 +103,15 @@ for i in city:
        print(i)
 
 print(city.index('Samsun'))
+# isimi a ile başlayanları sıralama
+name_list = ['ali', 'veli', 'ahmet', 'asım', 'vedat']
+result_list1 = [name for name in name_list if name.startswith('a')]
+result_list2 = [name for name in name_list if name.startswith('v')]
+print(result_list1)
+print(result_list2)
 
-names = ['ali', 'veli', 'ahmet', 'asım', 'vedat']
+name_list = ['ali', 'veli', 'ahmet', 'asım', 'vedat']
 
+for name in name_list:
+    if name.startswith('a'):
+        print(name, end=' ')
