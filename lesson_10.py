@@ -102,6 +102,13 @@ else:
     print(sayi, 'asaldır')
 
 
+sayi = 6
+sonuc = 1
+while sayi > 0:
+    sonuc *= sayi
+    sayi -= 1
+print(sonuc)
+
 
 
 
