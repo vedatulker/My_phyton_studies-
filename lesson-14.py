@@ -19,7 +19,7 @@ def fonk():  # hata verir.
 
 print(fonk())
 
-isim = 'Fırat'
+isim = 'Firat'
 
 def fonk():
     global isim
@@ -27,3 +27,14 @@ def fonk():
     return isim
 
 print(fonk())
+
+def uygulama():
+    girdi = input('Please enter you number: ')
+    islem = input('Is this number odd or even : ')
+    
+    if islem == 'odd':
+        if girdi % 2 ==0:
+            print(f"{girdi} is odd number.")
+        else:
+            print(f"{girdi} is even number.")
+uygulama()
