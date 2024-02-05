@@ -17,3 +17,5 @@ print(os.listdir())
 #os.makedirs('Clarusway/Deneme/Os_module')  # İç içe klasör oluşturma
 #mkdir('DEnene') sadece bir klasör oluşturur
 os.rmdir('Deneme Klasörü')  # silme işlemi
+
+

@@ -37,4 +37,11 @@ print(e)
 
 h = list(filter(lambda a : a%2==0, numbers))
 print(h)
+print(30*'-')
+def toplam(n):
+    return lambda a : a **n
 
+üssü = toplam(3)
+print(üssü(2))
+
+print(30*'-')
